@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>webdesigncourse</title>
-    <style>
+    <link rel="stylesheet" href="styles.css">
+
+    <!--internal styles-->
+    <!--<style>
         h1 {
             color: purple;
             font-size: 80px;
@@ -15,17 +18,29 @@
             font-style: italic;
         }
 
-    </style>
+    </style>-->
 </head>
 <body>
-    <h1>working with HTML and CSS</h1>
+    <h1 class="firstheading">working with HTML and CSS</h1>
     <hr>
+    <header>
+        working with HTML semantic tag
+
+    </header>
+    <article>
+        <section>
+            <p>first section</p>
+        </section>
+        <section>
+            <p>second section</p>
+        </section>
+    </article>
 
     <p>the average speed of a full grown male african ostrich is</p>
     <p>8km/h</p>
     <!-- comments which dont run (ctrl+/) -->
     <img height="350px" src="images/1638919302377.jpg">
-     <p>
+     <p class="contactme">
          <!--adding the anchor tag to wrap text-->
          to contact me through facebook, <a href="https://www.facebook.com/index.php?stype=lo&lh=Ac-MXJXQQLwq39zn"> click here </a> <br>
          to contact me through instagram, <a href="https://www.instagram.com/"> click here </a> <br>
@@ -35,22 +50,24 @@
 
      </p>
 
-     <h1 style="color: brown" >countries in africa</h1>
-     <p> Cameroon</p> <br><!--break tag <br> sends new item on list to a new line--> South Africa </p>
+     <h1 style="color: brown" >some countries in africa include the following:</h1>
+    <!--break tag <br> sends new item on list to a new line--> 
     <!--ordered list (<ol>) defaults to numbers-->
-     <ol>
+     <ol class="mylist">
          <li>Algeria</li>
          <li>Egypt</li>
+         <li>Senegal</li>
+         <li>Nigeria</li>
      </ol>
 
      <!--unordered list(defaults to bullets)--> 
 
-     <ul>
+     <ul class="mylist">
          <li>Kenya</li>
          <li>Uganda</li>
          <li>Togo</li>
      </ul>
      <!--adding a video from youtube, right click on video and select embed code then paste on your editor-->
-     <iframe width="916" height="515" src="https://www.youtube.com/embed/tz8hooclBRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <iframe width="500" height="200" src="https://www.youtube.com/embed/tz8hooclBRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
