@@ -1,0 +1,16 @@
+header {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: larger;
+    color: brown;
+}
+ table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    border: 1px, solid;    
+    margin-left: 100px;
+    max-width: 100%;    
+    letter-spacing: 2px;
+ }
