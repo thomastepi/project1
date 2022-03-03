@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 1px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  background-color: rgb(35, 162, 179);
+  color: white;
+  font-size: 15px;
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  letter-spacing: 0.2em;
+  line-height: 30px;
+}
+
+article {
+  max-width: 850px;
+  margin: auto;
+  padding-top: 70px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.author-details {
+  color: rgb(91, 105, 107);
+  font-size: 14px;
+  line-height: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 0.1em;
+  line-height: 58px;
+  font-family: 'Poppins', sans-serif;
+}
+ .middle-container {
+   margin: 50px auto 50px auto;
+   font-family: 'Poppins', sans-serif;
+   
+ }
+
+ .link, .paragraph1, .heading3, .paragraph2 {
+   margin-bottom: 20px;
+   font-family: 'Poppins', sans-serif;
+ }
+ .ordered-list {
+   margin-left: 20px;
+   margin-bottom: 20px;
+   font-family: 'Poppins', sans-serif;
+ }
+
+ .bottom-section {
+   line-height: 2;
+   font-family: 'Poppins', sans-serif;
+ }
+
+ #title-section {
+   margin-bottom: 20px;
+   font-family: 'Poppins', sans-serif;
+ }
+
+ .share-post {
+   display: inline-block;
+ }
