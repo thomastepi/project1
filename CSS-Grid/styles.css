@@ -30,21 +30,23 @@ body {
     border: #58a8ad 2px solid ;
 }
 
-/* this styles a specific element specified by the number */
+/* this styles a specific element specified by the number
 .element:nth-of-type(3) {
     align-self: start;
     justify-self: start;
 }  */
 
+@media screen and (max-width: 700px) {
+    /* select the elements to be changed */
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 
-
-@media (max-width: 700px) {
+@media screen and (max-width: 500px) {
     /* select the elements to be changed */
     .container {
         grid-template-columns: 1fr;
     }
-    .element:nth-of-type(6){
-        grid-column: 1;
-        grid-row: 6;
-    }
+
 }
