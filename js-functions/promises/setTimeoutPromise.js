@@ -3,7 +3,7 @@ let myPromiseObj = new Promise(function(myResolve, myReject){
 
     setTimeout(() => {
 
-        myResolve('I promise to return');
+        myResolve('this will display after 3 seconds');
 
     }, 3000)
 })
