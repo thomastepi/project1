@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    height: 300px;
+    background-color: grey;
+    display: flex; /*default axis for flex is row-wise*/
+    justify-content: space-between; /* align items only in the main axis - row */
+    align-items:  flex-start; /* align items in the cross axis  */
+    flex-direction: row; /* default direction is row */
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: darkgray;
+    margin: 10px;
+    color: white;
+}
+
+.item:nth-last-of-type(3) {  /* nth-of-type() is used to select a specific child element in the flex container  */
+    align-self: flex-start;
+}
+
